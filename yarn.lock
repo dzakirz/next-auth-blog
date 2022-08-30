@@ -96,6 +96,13 @@
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.2.1.tgz#60c7d0acc1c0c5b70ece712e2cbe13f46a345d6e"
   integrity sha512-0KqBwREUOjBiHwITsQzw2DWfLHjntvbqzGRawj4sBMnIiL5CXwyDUKeHOwXzKMtNr1rEjxEsypM14g0CzLRK3g==
 
+"@supercharge/strings@^1.28.0":
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/@supercharge/strings/-/strings-1.28.0.tgz#8f828c4c7181c7660859e4eedd9f0b03c12eeb17"
+  integrity sha512-bSixcASKbDaq4KLtfZTcu16Y9NQqIXfHUw/VtQ9bTCVLHH1Dqcff6INNaNmSHxNDIkmC049h087wnBkuH4hs7w==
+  dependencies:
+    uuid "~8.3.2"
+
 "@types/debug@^4.0.0":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"
@@ -839,7 +846,7 @@ use-subscription@1.5.1:
   dependencies:
     object-assign "^4.1.1"
 
-uuid@^8.3.2:
+uuid@^8.3.2, uuid@~8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
